@@ -5,15 +5,30 @@
 
 大学のリアルを解像度高く得られる（かもしれない）し、おもろい情報が流れてくる（かもしれない）し、受験のモチベ維持になる（かもしれない）し、色んな人と知り合える（かもしれない）！
 
-### Current Status
-（ウィジェット）
+### サーバーの様子
+新しくチャンネルを作ってほしい等の要望があれば遠慮なく`@admin`または`@editor`に連絡してください。
+![様々なチャンネルがあります（追加可）](channels.png)
+
+### Current Server Status
+<html>
+<iframe src="https://discord.com/widget?id=1124713846368632933&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</html>
 
 ## Steps to Join
-1. Discordのアカウントを作る
-1. [ここ]()をクリックしてサーバーに参加
-1. ウェルカムメッセージに従ってロール選択と表示名を変更
-1. 自己紹介はしたかったらしてね
+1. [Discord](https://discord.com/register)のアカウントを作る
+
+1. [ここ](https://discord.gg/bYfEKtDue2)をクリックしてサーバーに参加
+
+1. ウェルカムメッセージに従ってロール選択（部活とか）と表示名を変更
+</br>*以下のようにロールで所属が分かるようにしてます*</br>
+![色んなロールがある](role-example.png)
+
+1. 自己紹介はやりたかったらする
+</br>*できたらしてほしい*</br>
+
 1. 運営が承認してくれるのを待つ
+</br>*承認済みになると全てのチャンネルが見えるようになります*
+------
 ------
 
 
@@ -32,19 +47,77 @@
 * 運営側も試行錯誤で進めています。ご意見あれば忌憚なく教えてください。
 ### その他
 * 大学入学年が同じでも高校卒業年が違うことは往々にしてあります。気まずくならないように注意しましょう。
-* このサーバーではデフォルトで@mentionでしか通知が飛ばないようになってます。
+* このサーバーではデフォルトで`@mention`でしか通知が飛ばないようになってます。
 * いつでも無言で抜けて構いません。
 * 栃高生/東大生/栃高卒浪人生なら誰でも招待して構いません。東大を一切志望していなくても、です。
 * 栃高の先生や他大生の参加も検討中ですが、そうなったときは`#全体連絡`します。
 * 喋る内容も一切制限しません。進路相談でも**恋愛相談でも**どうぞ。ただしセンシティブなコンテンツは忠告なしに削除することがあります。
 
 ## 運営ロールについて
-このサーバーには@adminと@editorという二つの運営ロールがあります。その名の通り@adminはほぼ全ての権限を持ち、@editorはチャンネルやロールの新規追加/編集の権限のみを持ちます。
+このサーバーには`@admin`と`@editor`という二つの運営ロールがあります。その名の通り`@admin`はほぼ全ての権限を持ち、`@editor`はチャンネルやロールの新規追加/編集の権限のみを持ちます。
+
+運営側も常に人員を募集しています！興味があれば`@admin`に連絡してください。
 
 # Join us!
 ここまで読んでくれてありがとう。少しでも興味を持ったら一歩踏み出してみよう！
 
-（ボタン）
+<html>
+<style>
+.buttonOutlineGradient {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 64px;
+  padding: 2px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background: linear-gradient(135deg, #6fa24a, #15a1cc);
+  border-radius: 32px; /* (buttonの高さ / 2) の値 */
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buttonOutlineGradient::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(135deg, #6fa24a, #15a1cc);
+  filter: blur(8px);
+  border-radius: 32px; /* (buttonの高さ / 2) の値 */
+  opacity: 0;
+}
+.buttonOutlineGradient_item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #222;
+  border-radius: 32px; /* (buttonの高さ / 2) の値 */
+}
+@media (any-hover: hover) {
+  .buttonOutlineGradient::before {
+    transition: opacity 0.2s;
+    will-change: filter;
+  }
+  .buttonOutlineGradient:hover::before {
+    opacity: 1;
+  }
+}
+</style>
+<a href="https://discord.gg/bYfEKtDue2" class="buttonOutlineGradient">
+    <span class="buttonOutlineGradient_item">JOIN</span>
+</a>
+</html>
 
-> All life is an experiment. The more experiments you make the better.
-― Ralph Waldo Emerson
+
+> All life is an experiment. The more experiments you make the better.</br>― Ralph Waldo Emerson
