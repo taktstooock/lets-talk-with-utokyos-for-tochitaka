@@ -1,1 +1,0 @@
-# lets-talk-with-utokyos-for-tochitaka
