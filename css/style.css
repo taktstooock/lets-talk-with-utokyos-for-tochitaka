@@ -1,3 +1,5 @@
+/* Following is from GitHub */
+
 body {
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
@@ -5,10 +7,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
-  padding: 30px;
-  max-width: 70em;
-  margin: 0 auto;
-}
+  padding: 30px; }
 
 body > *:first-child {
   margin-top: 0 !important; }
@@ -278,3 +277,56 @@ pre {
   pre code, pre tt {
     background-color: transparent;
     border: none; }
+
+
+/* Following is original css */
+
+body {
+  max-width: 70em;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+}
+
+.date {
+  text-align: center;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #000;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+code {
+  color: #001e1f;
+  background-color: #efefef;
+  border-radius: 0.25em;
+  border: 1px solid #8f8f8f;
+  padding: 0.25em;
+}
+
+h2 {
+  padding: 1rem 2rem;
+  border: 6px double #000;
+  background: #f1fcff;
+}
+
+h3 {
+  padding: 1rem 2rem;
+  border-left: 5px solid #000;
+  background: #f4f4f4;
+}

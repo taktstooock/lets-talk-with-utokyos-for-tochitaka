@@ -14,9 +14,9 @@
 ![様々なチャンネルがあります（追加可）](media/channels.png)
 
 ### Current Server Status
-<html>
+<!-- <html> -->
 <iframe src="https://discord.com/widget?id=1124713846368632933&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-</html>
+<!-- </html> -->
 
 ## Steps to Join
 1. [Discord](https://discord.com/register)のアカウントを作る
@@ -67,7 +67,7 @@
 # Join us!
 ここまで読んでくれてありがとう。少しでも興味を持ったら一歩踏み出してみよう！
 
-<html>
+<!-- <html> -->
 <style>
 .buttonOutlineGradient {
   position: relative;
@@ -121,9 +121,9 @@
 }
 </style>
 <a href="https://discord.gg/bYfEKtDue2" class="buttonOutlineGradient">
-    <span class="buttonOutlineGradient_item">JOIN</span>
+    <span class="buttonOutlineGradient_item">JOIN!</span>
 </a>
-</html>
+<!-- </html> -->
 
 
 > All life is an experiment. The more experiments you make the better.</br>― Ralph Waldo Emerson
